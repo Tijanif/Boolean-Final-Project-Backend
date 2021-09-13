@@ -9,6 +9,6 @@ export const getAllAirports = async (req: Request, res: Response) => {
     res.json({ data: allAirports });
   } catch (error) {
     console.log(error);
-    res.json({ error: 'Not working' });
+    res.json({ error: 'Not working!' });
   }
 };
