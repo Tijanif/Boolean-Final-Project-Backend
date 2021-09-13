@@ -22,7 +22,7 @@ const getAllAirports = (req, res) => __awaiter(void 0, void 0, void 0, function*
     }
     catch (error) {
         console.log(error);
-        res.json({ error: "Not working" });
+        res.json({ error: 'Not working' });
     }
 });
 exports.getAllAirports = getAllAirports;
